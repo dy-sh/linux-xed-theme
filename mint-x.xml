@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- uses standard 4 space tabs for aligning -->
+
+<style-scheme id="mint-x" _name="Mint X" version="1.0">
+
+	<author>vlad0337187</author>
+	<_description>Mint X</_description
+	>
+
+
+	<color name="grey_light"		value="#dcdcdc"/>
+	<color name="grey_light_darker"	value="#999999"/>
+	<color name="grey_soft"			value="#303030"/>
+	<color name="grey_dark"			value="#1a1a1a"/>
+	<color name="yellow_sand"		value="#fae85d"/>
+	<color name="green_main"		value="#84db84"/>
+	<color name="green_mint"		value="#7e9468"/>
+	<color name="red_main"			value="#f03030"/>
+	<color name="red_soft"			value="#ff6a6e"/>
+	<color name="blue_soft"			value="#75afff"/>
+	<color name="violent_soft"		value="#ae87f6"/>
+
+
+	<style name="bracket-match"		foreground="yellow_sand"	background="grey_dark" bold="true"/>
+	<style name="bracket-mismatch"	foreground="red_main"		background="grey_soft" underline="true"/>
+	<style name="current-line"		background="grey_dark"/>
+	<style name="cursor"			foreground="grey_light"/>
+	<style name="line-numbers"		foreground="grey_light_darker"	background="grey_dark"/>
+	<style name="draw-spaces"		foreground="#6a6a6a"/>
+	<style name="search-match"		foreground="#ffffff"			background="grey_soft" bold="true" underline="false"/>
+	<style name="selection"			foreground="grey_dark"			background="green_mint"/>
+	<style name="text"				foreground="grey_light"			background="grey_soft"/>
+	<style name="right-margin"		foreground="#c8f0a0"/>
+
+
+	<style name="def:base-n-integer"		foreground="yellow_sand"/>
+	<style name="def:boolean"				foreground="yellow_sand"/>
+	<style name="def:builtin"				foreground="yellow_sand"/>
+	<style name="def:character"				foreground="yellow_sand"/>
+	<style name="def:comment"				foreground="grey_light_darker"/>
+	<style name="def:complex"				foreground="yellow_sand"/>
+	<style name="def:decimal"				foreground="yellow_sand"/>
+	<style name="def:doc-comment"			foreground="grey_light_darker"/>
+	<style name="def:doc-comment-element"	foreground="grey_light_darker"/>
+	<style name="def:error"					foreground="#cdcdcd" background=""/>
+	<style name="def:floating-point"		foreground="yellow_sand"/>
+	<style name="def:function"				foreground="blue_soft"/>
+	<style name="def:identifier"			foreground="blue_soft"/>
+	<style name="def:keyword"				foreground="violent_soft"/>
+	<style name="def:note"					foreground="grey_light_darker"/>
+	<style name="def:number"				foreground="yellow_sand"/>
+	<style name="def:operator"				foreground="violent_soft"/>
+	<style name="def:preprocessor"			foreground="yellow_sand"/>
+	<style name="def:reserved"				foreground="violent_soft"/>
+	<style name="def:shebang"				foreground="grey_light_darker"/>
+	<style name="def:special-char"			foreground="yellow_sand"/>
+	<style name="def:special-constant"		foreground="yellow_sand"/>
+	<style name="def:statement"				foreground="violent_soft"/>
+	<style name="def:string"				foreground="green_main"/>
+	<style name="def:type"					foreground="yellow_sand"/>
+
+
+    <!-- Markup -->
+    <style name="def:emphasis"                italic="true"/>
+    <style name="def:strong-emphasis"         foreground="violent_soft" bold="true"/>
+    <style name="def:inline-code"             foreground="blue_soft"/>
+    <style name="def:insertion"               underline="single"/>
+    <style name="def:deletion"                foreground="red_soft" strikethrough="true"/>
+    <style name="def:link-text"               foreground="yellow_sand"/>
+    <style name="def:link-symbol"             foreground="yellow_sand" bold="true"/>
+    <style name="def:link-destination"        foreground="grey_light_darker" italic="true" underline="single"/>
+    <style name="def:heading"                 foreground="green_main" bold="true"/>
+    <style name="def:thematic-break"          foreground="green_main" bold="true"/>
+    <style name="def:preformatted-section"    foreground="grey_light_darker"/>
+    <style name="def:list-marker"             foreground="violent_soft" bold="true"/>
+
+
+	<!-- files are placed in:	/usr/share/gtksourceview-3.0/language-specs/ -->
+	<style name="xml:attribute-name"	foreground="blue_soft"/>
+	<style name="xml:doctype"			foreground="red_soft"/>
+	<style name="xml:element-name"		foreground="red_soft"/>
+	<style name="xml:namespace"			foreground="red_soft"/>
+	<style name="xml:tag"				foreground="red_soft"/>
+
+	<style name="html:dtd"	foreground="green_main"/>
+	<style name="html:tag"	foreground="blue_soft"/>
+
+	<style name="yaml:map-key"		foreground="blue_soft"/>
+	<style name="yaml:directive"	foreground="violent_soft"/>	<!-- doesn't work ? -->
+
+
+	<style name="css:at-rules"	foreground="violent_soft"/>
+	<style name="css:color"		foreground="grey_light"/>
+	<style name="css:keyword"	foreground="green_main"/>
+
+	<style name="js:function"	foreground="blue_soft"/>
+
+	<style name="python:builtin-constant"	foreground="violent_soft"/>
+	<style name="python:builtin-function"	foreground="blue_soft"/>
+	<style name="python:module-handler"		foreground="violent_soft"/>
+	<style name="python:special-variable"	foreground="blue_soft"/>
+
+	<style name="ruby:attribute-definition"	foreground="blue_soft"/>
+	<style name="ruby:class-variable"		foreground="blue_soft"/>
+	<style name="ruby:instance-variable"	foreground="blue_soft"/>
+	<style name="ruby:global-variable"		foreground="violent_soft"/>	<!-- doesn't work ? -->
+	<style name="ruby:special-variable"		foreground="violent_soft"/>
+	<style name="ruby:builtin"				foreground="violent_soft"/>
+	<style name="ruby:constant"				foreground="violent_soft"/>
+	<style name="ruby:predefined-variable"	foreground="yellow_sand"/>
+	<style name="ruby:string"				foreground="green_main"/>
+	<style name="ruby:symbol"				foreground="green_main"/>
+	<style name="ruby:regex"				foreground="green_main"/>
+	<style name="ruby:module-handler"		foreground="red_soft"/>
+	<style name="ruby:keyword"				foreground="red_soft"/>
+	<style name="ruby:operator"				foreground="red_soft"/>
+
+	<style name="perl:builtin"				foreground="blue_soft"/>
+	<style name="perl:include-statement"	foreground="violent_soft"/>
+	<style name="perl:special-variable"		foreground="yellow_sand"/>
+	<style name="perl:variable"				foreground="blue_soft"/>
+
+</style-scheme>
